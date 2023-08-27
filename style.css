@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232323;
+}
+
+.containers{
+    padding-inline: 10%;
+}
+
+.bg-kırmızı{
+    background-color: #E50914;
+}
+
+
+.hero-image{
+    height: 700px;
+    background-image:linear-gradient(black, rgba(0, 0, 0, 0.0041)), url("img/arkaplan.jpg");
+}
+
+.ana-yazi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fs-7{
+    font-size: 55px;
+}
+
+.fs-8{
+    font-size: 14px;
+}
+
+.line-height{
+    line-height: 1.5;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.border-gri{
+    border: 1px solid grey;
+}
+
+.bg-koyu{
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+.w-15{
+    width: 15%;
+}

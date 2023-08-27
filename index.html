@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Anasayfası</title>
+
+    <!-- ! Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ! Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- ! External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="hero-image containers position-relative">
+        <!-- ! NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img width="135px" src="img/netflix_logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link border border-white rounded-2 py-1" aria-current="page" href="#">
+                        <i class="fa-solid fa-globe text-white"></i>
+                        <select name="" id="" class="border-0 bg-transparent text-white">
+                            <option value="">Türkçe</option>
+                            <option value="">İngilizce</option>
+                            <option value="">Arapça</option>
+                        </select>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-1 bg-kırmızı text-white rounded-2 ms-3" href="#">Oturum Aç</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- ! AÇIKLAMA BAŞLANGIÇ -->
+          <div class="container">
+            <div class="ana-yazi w-75 text-center">
+                <h1 class="text-white fs-7 mb-4">Sınırsız film, dizi ve çok daha fazlası</h1>
+                <h2 class="text-white mb-4">İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h2>
+                <h4 class="text-white mb-3 line-height">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek.</h4>
+                <!-- ! BAŞLAYIN ALANI -->
+                <input class="py-2 px-3 w-40 bg-koyu border-gri rounded-2" type="text" placeholder="E-Posta Adresi">
+                <button class="py-2 bg-kırmızı text-white rounded-2 w-15 border-0">Başlayın ></button>
+            </div>
+          </div>
+    </div>
+    <!-- ! CONTENT ALANI -->
+    <div class="content bg-black mt-2">
+        <div class="containers">
+            <div class="row py-5">
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white fs-7">Televizyonunuzda izleyin</h1>
+                    <h3 class="text-white">Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</h3>
+                </div>
+                <div class="col-6">
+                    <img class="w-100" src="img/resim1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! CONTENT-2 -->
+    <div class="content bg-black mt-2">
+        <div class="containers">
+            <div class="row py-5">
+                <div class="col-6">
+                    <img class="w-100" src="img/resim2.jpg" alt="">
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white fs-7">Çevrimdışı izlemek için içerikleri indirin</h1>
+                    <h3 class="text-white">En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</h3>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-- ! CONTENT-3 -->
+    <div class="content bg-black mt-2">
+        <div class="containers">
+            <div class="row py-5">
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white fs-7">İstediğiniz her yerde izleyin</h1>
+                    <h3 class="text-white">Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</h3>
+                </div>
+                <div class="col-6">
+                    <img class="w-100" src="img/resim3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- ! CONTENT-4 -->
+    <div class="content bg-black mt-2">
+        <div class="containers">
+            <div class="row py-5">
+                <div class="col-6">
+                    <img class="w-100" src="img/resim4.png" alt="">
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white fs-7">Çocuklarınız için profiller oluşturun</h1>
+                    <h3 class="text-white">Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir.</h3>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-- ! SIKÇA SORULAN SORULAR -->
+    <div class="content py-5 bg-black mt-2">
+        <div class="containers">
+            <h1 class="text-white fs-7 text-center mb-4">Sıkça Sorulan Sorular</h1>
+            <!-- Accordion Yapısı -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- ! Accordion-1 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Netflix Nedir?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <!-- ! Accordion-2 -->
+                <div class="accordion-item mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Netflix Nedir?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <!-- ! Accordion-3 -->
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Netflix Nedir?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <!-- ! Accordion-4 -->
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Netflix Nedir?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <!-- ! Accordion-5 -->
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Netflix Nedir?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <!-- ! Accordion-6 -->
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed bg-dark py-4 text-white fs-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Netflix Nedir?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse bg-dark" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-white">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+              </div>
+              <!-- ! ACCORDİON ALTINDAKİ KAYIT ALANI -->
+              <div class="kayit text-center text-white mt-5">
+                <h4 class="px-5 line-height mb-3">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek.</h4>
+                <input class="py-2 px-3 w-40 bg-koyu border-gri rounded-2" type="text" placeholder="E-Posta Adresi">
+                <button class="py-2 bg-kırmızı text-white rounded-2 w-15 border-0">Başlayın ></button>
+              </div>
+        </div>
+    </div>
+    <!-- ! FOOTER ALANI -->
+    <div class="content bg-black mt-2 py-5">
+        <div class="containers">
+            <h5 class="text-white mb-4">Sorularınız mı var? <span class="border-bottom border-white">0850-390-7444</span> numaralı telefonu arayın</h5>
+            <div class="row">
+                <!-- ! Birinci Sütun -->
+                <div class="col-4 d-flex flex-column">
+                    <a href="" class="text-white mb-2 fs-8">SSS</a>
+                    <a href="" class="text-white mb-2 fs-8">Medya Merkezi</a>
+                    <a href="" class="text-white mb-2 fs-8">Hediye Kartı Kullan</a>
+                    <a href="" class="text-white mb-2 fs-8">Gizlilik</a>
+                    <a href="" class="text-white mb-2 fs-8">Bize Ulaşın</a>
+                    <a href="" class="text-white mb-2 fs-8">Sadece Netflix'te</a>
+                </div>
+                <!-- ! İkinci Sütun -->
+                <div class="col-4 d-flex flex-column">
+                    <a href="" class="text-white mb-2 fs-8">SSS</a>
+                    <a href="" class="text-white mb-2 fs-8">Medya Merkezi</a>
+                    <a href="" class="text-white mb-2 fs-8">Hediye Kartı Kullan</a>
+                    <a href="" class="text-white mb-2 fs-8">Gizlilik</a>
+                    <a href="" class="text-white mb-2 fs-8">Bize Ulaşın</a>          
+                </div>
+                <!-- ! Üçüncü Sütun -->
+                <div class="col-4 d-flex flex-column">
+                    <a href="" class="text-white mb-2 fs-8">SSS</a>
+                    <a href="" class="text-white mb-2 fs-8">Medya Merkezi</a>
+                    <a href="" class="text-white mb-2 fs-8">Hediye Kartı Kullan</a>
+                    <a href="" class="text-white mb-2 fs-8">Gizlilik</a>
+                    <a href="" class="text-white mb-2 fs-8">Bize Ulaşın</a>
+                </div>
+            </div>
+            <a class="nav-link border border-white rounded-2 py-1 px-2 w-15 my-4" aria-current="page" href="#">
+                <i class="fa-solid fa-globe text-white"></i>
+                <select name="" id="" class="border-0 bg-transparent text-white">
+                    <option value="">Türkçe</option>
+                    <option value="">İngilizce</option>
+                    <option value="">Arapça</option>
+                </select>
+            </a>
+            <h6 class="text-white fs-8">Netflix Türkiye</h6>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ! Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
